@@ -151,10 +151,10 @@ modeBtn.addEventListener('click', function() {
 
 if(!darkMode){
     document.body.classList.add('light');
-    modeBtn.src='/Users/macbook/challenge-1/assets/images/icon-moon.svg';
+    modeBtn.src = 'assets/images/icon-moon.svg';
 }
 else {
     document.body.classList.remove('light');
-    modeBtn.src='/Users/macbook/challenge-1/assets/images/icon-sun.svg'
+    modeBtn.src="assets/images/icon-sun.svg"
 }
 })
