@@ -76,7 +76,10 @@ async function loadData() {
     return data;
 }
 loadData();
-
+window.onload = function () {
+    document.getElementById("all").classList.add("active");
+    displayCards('all');
+};
 
 async function displayCards(userSelected) {
     const data = await loadData();
